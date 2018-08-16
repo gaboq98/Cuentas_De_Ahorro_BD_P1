@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Login</h2>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <table border="0" align="center">
+        <tr>
+            <td>
+                <form name="login" action="" method="post" accept-charset="utf-8">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="yourname@email.com">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <input type="submit" value="Login">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
